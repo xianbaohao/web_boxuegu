@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博学谷</title>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <script src="./lib/jquery.js"></script>
+    <script src="./lib/template-web.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <div class="left">
+            <img src="../views/images/邮件.png" alt="">
+        </div>
+        <div class="middle">
+            <img src="./images/headerLogo.png" alt="">
+        </div>
+        <div class="right">
+            <img src="./images/屏幕截图 2022-05-07 161347.png" alt="">
+        </div>
+    </div>
+    <!-- 头部 -->
+
+    <!-- banner区域 -->
+    <div class="banner">
+    </div>
+    <!-- banner区域 -->
+
+    <!-- 就业课 -->
+    <div class="employmentClass">
+        <div class="top">就业课</div>
+        <div class="bottom">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./images/fe-list.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/java.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/data.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/python.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/ui.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/fe-list.png" alt="">
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        
+
+    </div>
+    <!-- 就业课 -->
+
+
+    <!-- 微课 -->
+    <div class="smallClass">
+        <div class="top">就业课</div>
+        <div class="bottom">
+            <ul id="AllCourse"></ul>
+
+
+        </div>
+    </div>
+    <!-- 微课 -->
+
+
+    <!-- 底部 -->
+   <div class="dibu">
+    <div class="footer">
+        <a href="./index.html">
+            <img src="./images/屏幕截图 2022-05-07 174904.png" alt="">
+        </a>
+        <a href="./category.html">
+            <img src="./images/屏幕截图 2022-05-07 174918.png" alt="">
+        </a>
+    </div>
+   </div>
+    <!-- 底部 -->
+    <!-- 定义模板 -->
+    <script type="text/html" id="course">
+        {{each result.data}}
+        <li>
+            <a href="#">
+                 <img src="{{$value.img}}" alt="">
+                 <div class="title">{{$value.name}}</div>
+                 <div class="info">
+                      <div class="num">{{$value.count}}人学习</div>
+                      <div class="price">¥{{$value.price}}</div>
+                 </div>
+            </a>
+        </li>
+        {{/each}}
+    </script>
+</body>
+</html>

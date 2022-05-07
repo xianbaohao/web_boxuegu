@@ -1,0 +1,206 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+/* 头部 */
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 64px;
+    background-color: #446ADF;
+}
+.header .left img {
+   display: inline-block; 
+   width: 35px;
+   height: 35px;
+   margin-left: 18px;
+   margin-top: 16px;
+    
+}
+.header .middle img {
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 15px;
+}
+.header .right img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 90px;
+    margin-top: 14px;
+}
+/* banner区域 */
+.banner {
+    width: 100%;
+    height: 170px;
+    background-image: url(../images/FE.png);
+    background-size: 100% 100%;
+    margin-top: 64px;
+}
+
+
+/* 就业课 */
+.employmentClass {
+    width: 100%;
+    height: 242px;
+    margin-top: 16px;
+    background-color: #FFFFFF;
+}
+.employmentClass .top {
+    width: 100%;
+    height: 34px;
+    /* background-color: blue; */
+    line-height: 34px;
+    text-align: center;
+    font-size: 18px;
+    color: #446ADF;
+}
+.employmentClass .bottom {
+    width: 100%;
+    height: 208px;
+    /* background-color: blue; */
+
+}
+.employmentClass .bottom ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.employmentClass .bottom ul li {
+    display: inline-block;
+    width: 121px;
+    height: 102px;
+    /* background-color:red; */
+}
+.employmentClass .bottom ul li img {
+    margin-left: 25px;
+    margin-top: 15px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+/* 微课 */
+.smallClass {
+    width: 100%;
+    margin-top: 16px;
+    background-color: #FFFFFF;
+}
+.smallClass .top {
+    width: 100%;
+    height: 34px;
+    /* background-color: blue; */
+    line-height: 34px;
+    text-align: center;
+    font-size: 18px;
+    color: #446ADF;
+}
+.smallClass .bottom ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 12px;
+}
+.smallClass .bottom ul li {
+    display: inline-block;
+    width: 176px;
+    height: 158px;
+    /* background-color: red; */
+    margin-left: 6px; 
+}
+.smallClass .bottom ul li img {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    border-radius: 6px;
+}
+.smallClass .bottom ul li .title {
+    height: 20px;
+    color: #333333;
+    margin-top: 8px;
+    font-size: 16px;
+
+}
+.smallClass .bottom ul li .info {
+    margin-top: 2px;
+}
+.smallClass .bottom ul li .info .num {
+    float: left;
+    color: #D0D0D0;
+    font-size: 14px;
+}
+.smallClass .bottom ul li .info .price {
+    float: right;
+    color: #446ADF;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 底部 */
+.dibu {
+    height: 58px;
+}
+.footer {
+    width: 100%;
+    height: 58px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+}
+.footer a:first-child img {
+    display: inline-block;
+    width: 75px;
+    height: 55px;
+    margin-left: 40px;
+}
+.footer a:last-child img {
+    display: inline-block;
+    width: 75px;
+    height: 60px;
+    margin-left: 145px;
+
+}
