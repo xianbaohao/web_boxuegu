@@ -1,0 +1,169 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+/* 头部 */
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 66px;
+    background-color: #FFFFFF;
+}
+.header .left img {
+    display: inline-block;
+    width: 100px;
+    height: 37px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.header .right span {
+    display: inline-block;
+    font-size: 26px;
+    color: #28ABFC;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+/* 主体内容 */
+.main {
+    display: flex;
+    width: 100%;
+    margin-top: 76px;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 76px;
+    width: 100px;
+}
+.sidebar div {
+    height: 56px;
+    line-height:56px;
+    text-align: center;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* 内容 */
+.content {
+    /* position: relative; */
+    flex: 1;
+    margin-left: 100px;
+    background-color: #FFFFFF;
+    overflow-y: scroll;
+}
+
+.content .top .title {
+    margin-left: 17px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    color:#28ABFC;
+}
+.content .top img {
+    display: block;
+    width: 250px;
+    height: 86px;
+    margin-left: 17px;
+}
+.content .top span {
+    display: block;
+    position: absolute;
+    left: 165px;
+    top: 150px;
+    color: #FFFFFF;
+}
+.content .bottom .title {
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    color:#28ABFC;
+    margin-left: 17px;
+}
+.content .bottom ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left:22px;
+
+}
+.content .bottom ul li {
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    /* background-color: red; */
+    border: 1px solid #CCCCCC;
+    border-radius:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+.content .bottom ul li a {
+    color: #CCCCCC;
+    text-decoration:none;
+    font-size: 14px;
+}
+.content div {
+    color: #CCCCCC;
+}
+
+
+.active {
+    background-color: #FFFFFF;
+    border-left: 2px solid #28ABFC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 底部 */
+.dibu {
+    height: 58px;
+}
+.footer {
+    width: 100%;
+    height: 58px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+}
+.footer a:first-child img {
+    display: inline-block;
+    width: 75px;
+    height: 55px;
+    margin-left: 40px;
+}
+.footer a:last-child img {
+    display: inline-block;
+    width: 75px;
+    height: 60px;
+    margin-left: 145px;
+
+}
