@@ -5,6 +5,8 @@ body {
     width: 100%;
     height: 100%;
     background-color: #f1f1f1;
+    height: 100%;
+
 }
 
 /* 头部 */
@@ -38,6 +40,8 @@ body {
     display: flex;
     width: 100%;
     margin-top: 76px;
+    height: 100%;
+
 }
 .sidebar {
     position: fixed;
@@ -60,6 +64,8 @@ body {
     margin-left: 100px;
     background-color: #FFFFFF;
     overflow-y: scroll;
+    height: 100%;
+
 }
 
 .content .top .title {
@@ -114,9 +120,7 @@ body {
     text-decoration:none;
     font-size: 14px;
 }
-.content div {
-    color: #CCCCCC;
-}
+
 
 
 .active {
